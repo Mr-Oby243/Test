@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talim - School University & Online Education Template</title>
+    <link rel="shortcut icon" href="assets/images/logo/favicon.ico" type="image/x-icon">
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/icofont.min.css">
+    <link rel="stylesheet" href="assets/vendor/font-awesome/all.min.css">
+    <link rel="stylesheet" href="assets/vendor/font-awesome/sharp-regular.min.css">
+    <link rel="stylesheet" href="assets/vendor/font-awesome/sharp-solid.min.css">
+    <link rel="stylesheet" href="assets/vendor/mean-menu/meanmenu.min.css">
+    <link rel="stylesheet" href="assets/vendor/slick-slider/slick.css">
+    <link rel="stylesheet" href="assets/vendor/eocjs-newsticker/eocjs-newsticker.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- dark version css -->
+    <link rel="stylesheet" href="assets/css/dark-v.css">
+</head>
+
+<body class="tl-inner-courses-body dark_mode">
+    <!-- preloader start -->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="loading-content">
+                    <img class="loading-logo-text" src="assets/images/logo/logo-text2.png" alt="Kidba">
+                    <div class="loading-stroke">
+                        <img class="loading-logo-icon" src="assets/images/logo/logo-text3.jpg" alt="Pen">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- preloader end -->
+
+
+    <!-- sidebar area start -->
+    <div class="kidba-menu-sidebar">
+        <div class="kidba-menu-sidebar-inner">
+            <div class="sidebar__close">
+                <button class="sidebar__close-btn" id="sidebar__close-btn">
+                    <span><i class="icofont-brand-nexus"></i></span>
+                    <span>close</span>
+                </button>
+            </div>
+            <div class="kidba-menu-sidebar-top mb-40">
+                <nav>
+                    <div class="nav nav-tabs border-0" id="nav-tab" role="tablist">
+                        <button class="active " id="nav-menu-tab" data-bs-toggle="tab" data-bs-target="#nav-menu" type="button" role="tab" aria-controls="nav-menu" aria-selected="true">Menu</button>
+                        <button id="nav-info-tab" data-bs-toggle="tab" data-bs-target="#nav-info" type="button" role="tab" aria-controls="nav-info" aria-selected="false">Info</button>
+                    </div>
+                </nav>
+            </div>
+            <div class="kidba-menu-sidebar-bottom">
+                <div class="logo mb-40">
+                    <a href="index.html">
+                        <img src="assets/images/logos/logo.png" alt="Logo">
+                    </a>
+                </div>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-menu" role="tabpanel" aria-labelledby="nav-menu-tab">
+                        <div class="mobile-menu"></div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-info" role="tabpanel" aria-labelledby="nav-info-tab">
+                        <div class="kidba-sidebar-info-content-331">
+                            <ul>
+                                <li><i class="icofont-clock-time"></i> 9:30am - 6:30pm, Mon - Sun</li>
+                                <li><a href="tel:http://80012345676587"><i class="icofont-phone"></i> +800-123-4567 6587</a></li>
+                                <li><i class="icofont-google-map"></i> Anmoore Road Brooklyn, NY 230</li>
+                            </ul>
+                        </div>
+                        <div class="kidba-sidebar-info-social-331">
+                            <a href="#" class="header-right-txt"><i class="icofont-facebook"></i></a>
+                            <a href="#" class="header-right-txt"><i class="icofont-twitter"></i></a>
+                            <a href="#" class="header-right-txt"><i class="icofont-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offwrap"></div>
+    <!-- sidebar area end -->
+
+
+    <!-- HEADER SECTION STARTS HERE ↓ -->
+    <div class="tl-header tl-1-header">
+        <!-- <div class="tl-1-header-top" data-bg-color="var(--yellow-2)">
+             <div class="container">
+                 <p>Transform talent and your exclusive skills Global Skills Report 2023.</p>
+                 <a href="#">Learn More</a>
+             </div>
+         </div> -->
+ 
+         <div class="tl-1-header-bottom green-clr pt-20 pb-20" data-bg-color="var(--black-5)">
+             <div class="container">
+                 <div class="row g-0 align-items-center">
+                     <div class="col-xl-2 col-lg-2">
+                         <div class="row align-items-center">
+                             <div class="col-lg-12 col-6">
+                                 <div class="logo">
+                                     <a href="index.html">
+                                         <img src="assets/images/logos/logo-.png" alt="Logo">
+                                     </a>
+                                 </div>
+                             </div>
+                             <div class="d-lg-none d-flex justify-content-end col-6">
+                                 <button class="tl-hamburger navbar-toggler">
+                                     <i class="icofont-navigation-menu"></i>
+                                 </button>
+                             </div>
+                         </div>
+                     </div>
+ 
+                     <div class="col-7">
+                         <div class="tl-nav-menu tl-1-nav-menu">
+                             <ul class="justify-content-center">
+                                <li class="tl-nav-item tl-dropdown">
+                                     <a href="index.html" role="button">
+                                         Acceuil 
+                                     </a>
+                                   <!--   <ul class="tl-submenu">
+                                         <li><a href="index.html">Online Education (LMS)</a></li>
+                                         <li><a href="index-2.html">Kindergarten</a></li>
+                                         <li><a href="index-3.html">School</a></li>
+                                         <li><a href="index-4.html">College</a></li>
+                                         <li><a href="index-5.html">University</a></li>
+                                         <li><a href="index-6.html">Magazine</a></li>
+                                         <li><a href="index-7.html">Dance School</a></li>
+                                         <li><a href="index-8.html">Driving School</a></li>
+                                         <li><a href="index-9.html">Music School</a></li>
+                                         <li><a href="index-10.html">University Two</a></li>
+                                         <li><a href="index-11.html">Magazine Two</a></li>
+                                         <li><a href="index-12.html">Live Class</a></li>
+                                         <li><a href="index-13.html">Online Course</a></li>
+                                         <li><a href="index-14.html">Language Club</a></li>
+                                     </ul> -->
+                                 </li> 
+ 
+                                 <li class="tl-nav-item tl-dropdown">
+                                     <a href="course.html" role="button">
+                                         Cours 
+                                     </a>
+                                    <!-- <ul class="tl-submenu">
+                                         <li><a href="course.html">Course One</a></li>
+                                         <li><a href="course-2.html">Course Two</a></li>
+                                         <li><a href="course-3.html">Course Three</a></li>
+                                         <li><a href="course-4.html">Course Four</a></li>
+ 
+                                         <li><a href="course-details.html">Course Details</a></li>
+                                     </ul> -->
+                                 </li>
+ 
+                                 <li class="tl-nav-item tl-dropdown">
+                                     <a href="staff.html" role="button">
+                                         Encadreurs <!--<i class="fa-regular fa-angle-down"></i> -->
+                                     </a>
+                                   <!--  <ul class="tl-submenu">
+                                         <li class="tl-dropdown-2">
+                                             <a href="#">About <i class="fa-regular fa-angle-right"></i></a>
+ 
+                                             <ul class="tl-submenu tl-submenu-2">
+                                                 <li><a href="about.html">About One</a></li>
+                                                 <li><a href="about-2.html">About Two</a></li>
+                                                 <li><a href="about-3.html">About Three</a></li>
+                                                 <li><a href="about-4.html">About Four</a></li>
+                                                 <li><a href="about-5.html">About Five</a></li>
+                                                 <li><a href="about-6.html">About Six</a></li>
+                                                 <li><a href="about-7.html">About Seven</a></li>
+                                                 <li><a href="about-8.html">About Eight</a></li>
+                                             </ul> 
+                                         </li>
+                                         <li class="tl-dropdown-2">
+                                             <a href="#">Trainers <i class="fa-regular fa-angle-right"></i></a>
+ 
+                                             <ul class="tl-submenu tl-submenu-2">
+                                                 <li><a href="staff.html">Staff One</a></li>
+                                                 <li><a href="staff-2.html">Staff Two</a></li>
+                                                 <li><a href="staff-3.html">Staff Three</a></li>
+                                                 <li><a href="staff-4.html">Staff Four</a></li>
+                                                 <li><a href="staff-5.html">Staff Five</a></li>
+                                                 <li><a href="staff-6.html">Staff Six</a></li>
+                                             </ul>
+                                         </li>
+                                         <li><a href="staff-profile.html">Staff Profile</a></li>
+                                         <li class="tl-dropdown-2">
+                                             <a href="#">Event <i class="fa-regular fa-angle-right"></i></a>
+ 
+                                             <ul class="tl-submenu tl-submenu-2">
+                                                 <li><a href="event.html">Event One</a></li>
+                                                 <li><a href="event-2.html">Event Two</a></li>
+                                                 <li><a href="event-3.html">Event Three</a></li>
+                                             </ul>
+                                         </li>
+                                         <li><a href="event-details.html">Event Details</a></li>
+                                     </ul> -->
+                                 </li>
+ 
+                                 <li class="tl-nav-item tl-dropdown">
+                                     <a href="event.html" role="button">
+                                         Évènements <!--  <i class="fa-regular fa-angle-down"></i> -->
+                                     </a>
+                                     <!-- <ul class="tl-submenu">
+                                         <li class="tl-dropdown-2">
+                                             <a href="#">Blog <i class="fa-regular fa-angle-right"></i></a>
+ 
+                                             <ul class="tl-submenu tl-submenu-2">
+                                                 <li><a href="blog.html">Blog One</a></li>
+                                                 <li><a href="blog-2.html">Blog Two</a></li>
+                                                 <li><a href="blog-3.html">Blog Three</a></li>
+                                                 <li><a href="blog-4.html">Blog Four</a></li>
+                                                 <li><a href="blog-5.html">Blog Five</a></li>
+                                                 <li><a href="blog-6.html">Blog Six</a></li>
+                                                 <li><a href="blog-7.html">Blog Seven</a></li>
+                                             </ul>
+                                         </li>
+                                         <li><a href="blog-details.html">Blog Details</a></li>
+                                     </ul> -->
+                                 </li>
+ 
+                                 <li class="tl-nav-item tl-dropdown">
+                                     <a href="about vf.html" role="button">
+                                         À propos
+                                     </a>
+                                 </li> 
+ 
+                                 <li class="tl-nav-item tl-dropdown">
+                                     <a href="#">Contact <!--<i class="fa-regular fa-angle-down"></i></a> -->
+ 
+                                    <ul class="tl-submenu">
+                                         <li><a href="contact.html">Contact</a></li>
+ 
+                                     </ul> 
+                                 </li>
+                             </ul>
+                         </div>
+                     </div>
+
+                    <div class="col-3 d-lg-block d-none">
+                        <div class="tl-header-actions kb-16-header-actions d-flex justify-content-end align-items-center">
+                            <a href="signin.html"><i class="fa-regular fa-user"></i> Sign Up</a>
+                            <a href="signup.html" class="tl-def-btn tl-1-header-btn">Free Trial</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- HEADER SECTION ENDS HERE ↑ -->
+
+    <!-- BREADCRUMB STARTS HERE -->
+    <div class="tl-breadcrumb pt-120 pb-120">
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="col-md-6">
+                    <div class="banner-txt">
+                        <h1 class="tl-breadcrumb-title">Microsoft Power BI</h1>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <ul class="tl-breadcrumb-nav d-flex">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li class="current-page">
+                            <span class="dvdr"><i class="icofont-simple-right"></i></span>
+                            <span>À propos de Power BI</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- BREADCRUMB ENDS HERE -->
+
+    <!-- COURSE DETAILS START -->
+    <div class="tl-event-details-container pt-120 pb-120">
+        <div class="container">
+            <div class="row g-0 tl-event-details-row">
+                <div class="col-lg-8">
+                    <div class="tl-event-details-left">
+                        <div class="tl-event-details-video">
+                            <iframe src="https://www.youtube.com/embed/VqhDnaqhnd4?si=LL6xoZfjSJkMNNLJ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                            <h2 class="tl-event-details-title">Microsoft Power BI : Libération de la visualisation des données et de l'intelligence métier.
+                            </h2>
+                        </div>
+
+                        <div class="tl-course-details-infos">
+                            <div class="tl-course-details-info">
+                                <h6 class="tl-course-details-info-name"><i class="fa-regular fa-user"></i>Encadreur</h6>
+                                <h5 class="tl-course-details-info-value">Parfait MUNONGO</h5>
+                            </div>
+                            <div class="tl-course-details-info">
+                                <h6 class="tl-course-details-info-name"><i class="fa-regular fa-layer-group"></i>Catégorie</h6>
+                                <h5 class="tl-course-details-info-value">visualisation des Données</h5>
+                            </div>
+                            <div class="tl-course-details-info">
+                                <h6 class="tl-course-details-info-name"><i class="fa-regular fa-user-graduate"></i>Apprenants</h6>
+                                <h5 class="tl-course-details-info-value">+60</h5>
+                            </div>
+                            <div class="tl-course-details-info">
+                                <h6 class="tl-course-details-info-name"><i class="fa-solid fa-sharp fa-star"></i>Ratings</h6>
+                                <div class="tl-course-details-stars tl-course-details-info-value">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <ul class="nav nav-tabs tl-course-details-navs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="overview-tab" data-bs-toggle="tab" data-bs-target="#overview-tab-pane" type="button" role="tab" aria-controls="overview-tab-pane" aria-selected="true">À propos</button>
+                            </li>
+
+                            <!--<li class="nav-item" role="presentation">
+                                <button class="nav-link" id="curriculum-tab" data-bs-toggle="tab" data-bs-target="#curriculum-tab-pane" type="button" role="tab" aria-controls="curriculum-tab-pane" aria-selected="false">curriculum</button> 
+                            </li> -->
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="instructor-tab" data-bs-toggle="tab" data-bs-target="#instructor-tab-pane" type="button" role="tab" aria-controls="instructor-tab-pane" aria-selected="false">Encadreur</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="reviews-tab" data-bs-toggle="tab" data-bs-target="#reviews-tab-pane" type="button" role="tab" aria-controls="reviews-tab-pane" aria-selected="false">Témoignages</button>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content" id="tl-course-tab-content">
+                            <div class="tab-pane fade show active" id="overview-tab-pane" role="tabpanel" aria-labelledby="overview-tab" tabindex="0">
+                                <div class="tl-event-details-descr tl-event-details-area">
+                                    <h3 class="tl-event-details-area-title">À propos du cours</h3>
+
+                                    <p align="justify" class="tl-event-details-descr-txt"> Êtes-vous prêt à révolutionner votre approche de l'analyse de données et de l'intelligence métier ? Notre cours <strong>Microsoft Power BI</strong> est votre passerelle pour maîtriser l'art de transformer les données brutes en informations significatives. Que vous soyez analyste de données, professionnel des affaires ou passionné par les données, ce cours vous donne des compétences nécessaires pour exploiter Microsoft Power BI dans des rapports dynamiques, la visualisation et la prise de décision éclairée.</p>
+                                </div>
+
+                                <div class="tl-event-details-faq tl-event-details-area">
+                                    <h3 class="tl-event-details-area-title">Ce que vous allez apprendre</h3>
+
+                                    <div class="tl-8-accordion">
+                                        <div class="tl-8-accordion-item open">
+                                            <div class="tl-8-accordion-item-header">
+                                                <h6 class="tl-8-accordion-item-title">Introduction à Power BI </h6>
+                                                <span class="tl-8-accordion-item-expand-icon"></span>
+                                            </div>
+
+                                            <p class="tl-8-accordion-item-body">
+                                                Plongez dans les fondamentaux de Power BI, comprenant son interface, ses fonctionnalités et l'intégration transparente avec diverses sources de données.
+                                            </p>
+                                        </div>
+
+                                        <div class="tl-8-accordion-item">
+                                            <div class="tl-8-accordion-item-header">
+                                                <h6 class="tl-8-accordion-item-title">Transformation et modélisation des données</h6>
+                                                <span class="tl-8-accordion-item-expand-icon"></span>
+                                            </div>
+
+                                            <p class="tl-8-accordion-item-body">
+                                                Apprenez à nettoyer, façonner et modéliser les données pour créer une base solide pour l'analyse, assurant précision et fiabilité dans vos insights.
+                                            </p>
+                                        </div>
+
+                                        <div class="tl-8-accordion-item">
+                                            <div class="tl-8-accordion-item-header">
+                                                <h6 class="tl-8-accordion-item-title">Techniques de visualisation des données</h6>
+                                                <span class="tl-8-accordion-item-expand-icon"></span>
+                                            </div>
+
+                                            <p class="tl-8-accordion-item-body">
+                                                Explorez l'art de la visualisation des données avec la gamme riche de graphiques, de graphiques et de tableaux de bord interactifs de Power BI. Maîtrisez les techniques pour transmettre efficacement des informations complexes.
+                                            </p>
+                                        </div>
+
+                                        <div class="tl-8-accordion-item">
+                                            <div class="tl-8-accordion-item-header">
+                                                <h6 class="tl-8-accordion-item-title">Analyse avancée avec DAX</h6>
+                                                <span class="tl-8-accordion-item-expand-icon"></span>
+                                            </div>
+
+                                            <p class="tl-8-accordion-item-body">
+                                                Exploitez la puissance des expressions d'analyse de données (DAX) pour effectuer des calculs avancés, créer des formules personnalisées et débloquer des capacités analytiques plus approfondies.
+                                            </p>
+                                        </div>
+
+                                        <div class="tl-8-accordion-item">
+                                            <div class="tl-8-accordion-item-header">
+                                                <h6 class="tl-8-accordion-item-title">Intégration avec Excel et SQL</h6>
+                                                <span class="tl-8-accordion-item-expand-icon"></span>
+                                            </div>
+
+                                            <p class="tl-8-accordion-item-body">
+                                                Comprenez l'intégration transparente avec Microsoft Excel et SQL Server, rationalisant votre flux de travail de données et assurant une cohérence sur toutes les plateformes.
+                                            </p>
+                                        </div> 
+
+                                        <div class="tl-8-accordion-item">
+                                            <div class="tl-8-accordion-item-header">
+                                                <h6 class="tl-8-accordion-item-title">Tableaux de bord et rapports en temps réel </h6>
+                                                <span class="tl-8-accordion-item-expand-icon"></span>
+                                            </div>
+
+                                            <p class="tl-8-accordion-item-body">
+                                                Créez des tableaux de bord et des rapports en temps réel convaincants, permettant aux parties prenantes d'accéder et d'interagir avec les informations les plus récentes sans effort.
+                                            </p>
+                                        </div> 
+
+                                        <div class="tl-8-accordion-item">
+                                            <div class="tl-8-accordion-item-header">
+                                                <h6 class="tl-8-accordion-item-title">Collaboration et partage</h6>
+                                                <span class="tl-8-accordion-item-expand-icon"></span>
+                                            </div>
+
+                                            <p class="tl-8-accordion-item-body">
+                                                Explorez les fonctionnalités de collaboration de Power BI, permettant aux équipes de travailler ensemble sur des projets, de partager des insights et de collaborer pour une prise de décision plus éclairée.
+                                            </p>
+                                        </div> 
+
+                                        <div class="tl-8-accordion-item">
+                                            <div class="tl-8-accordion-item-header">
+                                                <h6 class="tl-8-accordion-item-title">Service Power BI et application mobile  </h6>
+                                                <span class="tl-8-accordion-item-expand-icon"></span>
+                                            </div>
+
+                                            <p class="tl-8-accordion-item-body">
+                                                Découvrez comment tirer parti du service Power BI basé sur le cloud et de l'application mobile pour accéder et partager des insights en déplacement, assurant flexibilité et accessibilité.
+                                            </p>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                           <!-- <div class="tab-pane fade" id="curriculum-tab-pane" role="tabpanel" aria-labelledby="curriculum-tab" tabindex="0">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="tl-event-details-area tl-course-details-curriculum">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                Foundations of Fluent English Speaking
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <a href="#" class="tl-course-details-content">
+                                                    <span class="tl-course-details-content-left">
+                                                        <i class="fa-regular fa-video"></i> Mastering Pronunciation and Intonation
+                                                    </span>
+
+                                                    <span class="tl-course-details-content-right">
+                                                        <span class="tl-course-details-duration">43:28m</span>
+                                                        <span class="tl-course-details-availability"><i class="fa-regular fa-lock-open"></i></span>
+                                                    </span>
+                                                </a>
+
+                                                <a href="#" class="tl-course-details-content">
+                                                    <span class="tl-course-details-content-left">
+                                                        <i class="fa-regular fa-video"></i> Building a Strong Vocabulary for Everyday Communication
+                                                    </span>
+
+                                                    <span class="tl-course-details-content-right">
+                                                        <span class="tl-course-details-duration">01:05hrs</span>
+                                                        <span class="tl-course-details-availability"><i class="fa-regular fa-lock"></i></span>
+                                                    </span>
+                                                </a>
+
+                                                <a href="#" class="tl-course-details-content">
+                                                    <span class="tl-course-details-content-left"><i class="fa-regular fa-file-contract"></i> Understanding Basic Sentence Structure and Grammar</span>
+
+                                                    <span class="tl-course-details-content-right">
+                                                        <span class="tl-course-details-duration">01:05h</span>
+                                                        <span class="tl-course-details-availability"><i class="fa-regular fa-lock"></i></span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="tl-event-details-area tl-course-details-curriculum">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                Conversational Skills and Strategies
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <a href="#" class="tl-course-details-content">
+                                                    <span class="tl-course-details-content-left">
+                                                        <i class="fa-regular fa-video"></i> Mastering Pronunciation and Intonation
+                                                    </span>
+
+                                                    <span class="tl-course-details-content-right">
+                                                        <span class="tl-course-details-duration">43:28m</span>
+                                                        <span class="tl-course-details-availability"><i class="fa-regular fa-lock"></i></span>
+                                                    </span>
+                                                </a>
+
+                                                <a href="#" class="tl-course-details-content">
+                                                    <span class="tl-course-details-content-left">
+                                                        <i class="fa-regular fa-video"></i> Building a Strong Vocabulary for Everyday Communication
+                                                    </span>
+
+                                                    <span class="tl-course-details-content-right">
+                                                        <span class="tl-course-details-duration">01:05hrs</span>
+                                                        <span class="tl-course-details-availability"><i class="fa-regular fa-lock"></i></span>
+                                                    </span>
+                                                </a>
+
+                                                <a href="#" class="tl-course-details-content">
+                                                    <span class="tl-course-details-content-left"><i class="fa-regular fa-file-contract"></i> Understanding Basic Sentence Structure and Grammar</span>
+
+                                                    <span class="tl-course-details-content-right">
+                                                        <span class="tl-course-details-duration">01:05h</span>
+                                                        <span class="tl-course-details-availability"><i class="fa-regular fa-lock"></i></span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="tl-event-details-area tl-course-details-curriculum">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                Fluency Development through Real-world Scenarios
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <a href="#" class="tl-course-details-content">
+                                                    <span class="tl-course-details-content-left">
+                                                        <i class="fa-regular fa-video"></i> Mastering Pronunciation and Intonation
+                                                    </span>
+
+                                                    <span class="tl-course-details-content-right">
+                                                        <span class="tl-course-details-duration">43:28m</span>
+                                                        <span class="tl-course-details-availability"><i class="fa-regular fa-lock"></i></span>
+                                                    </span>
+                                                </a>
+
+                                                <a href="#" class="tl-course-details-content">
+                                                    <span class="tl-course-details-content-left">
+                                                        <i class="fa-regular fa-video"></i> Building a Strong Vocabulary for Everyday Communication
+                                                    </span>
+
+                                                    <span class="tl-course-details-content-right">
+                                                        <span class="tl-course-details-duration">01:05hrs</span>
+                                                        <span class="tl-course-details-availability"><i class="fa-regular fa-lock"></i></span>
+                                                    </span>
+                                                </a>
+
+                                                <a href="#" class="tl-course-details-content">
+                                                    <span class="tl-course-details-content-left"><i class="fa-regular fa-file-contract"></i> Understanding Basic Sentence Structure and Grammar</span>
+
+                                                    <span class="tl-course-details-content-right">
+                                                        <span class="tl-course-details-duration">01:05h</span>
+                                                        <span class="tl-course-details-availability"><i class="fa-regular fa-lock"></i></span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="tl-event-details-area tl-course-details-curriculum">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                Cultural Nuances and Cross-cultural Communication
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <a href="#" class="tl-course-details-content">
+                                                    <span class="tl-course-details-content-left">
+                                                        <i class="fa-regular fa-video"></i> Mastering Pronunciation and Intonation
+                                                    </span>
+
+                                                    <span class="tl-course-details-content-right">
+                                                        <span class="tl-course-details-duration">43:28m</span>
+                                                        <span class="tl-course-details-availability"><i class="fa-regular fa-lock"></i></span>
+                                                    </span>
+                                                </a>
+
+                                                <a href="#" class="tl-course-details-content">
+                                                    <span class="tl-course-details-content-left">
+                                                        <i class="fa-regular fa-video"></i> Building a Strong Vocabulary for Everyday Communication
+                                                    </span>
+
+                                                    <span class="tl-course-details-content-right">
+                                                        <span class="tl-course-details-duration">01:05hrs</span>
+                                                        <span class="tl-course-details-availability"><i class="fa-regular fa-lock"></i></span>
+                                                    </span>
+                                                </a>
+
+                                                <a href="#" class="tl-course-details-content">
+                                                    <span class="tl-course-details-content-left"><i class="fa-regular fa-file-contract"></i> Understanding Basic Sentence Structure and Grammar</span>
+
+                                                    <span class="tl-course-details-content-right">
+                                                        <span class="tl-course-details-duration">01:05h</span>
+                                                        <span class="tl-course-details-availability"><i class="fa-regular fa-lock"></i></span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+
+                            <div class="tab-pane fade" id="instructor-tab-pane" role="tabpanel" aria-labelledby="instructor-tab" tabindex="0">
+                                <div class="tl-course-details-instructor tl-event-details-area">
+                                    <div class="tl-course-details-instructor-heading">
+                                        <img class="tl-course-details-instructor-img" src="assets/images/tl-2/teacher-1.jpg" alt="instructor Image">
+
+                                        <div class="tl-course-details-instructor-info">
+                                            <h5 class="tl-course-details-instructor-name"><a href="staff-profile.html">Parfait MUNONGO</a></h5>
+                                            <h6 class="tl-staff-profile-role">Encadreur à SDA</h6>
+                                            <ul class="tl-course-details-instructor-socials">
+                                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="tl-course-details-instructor-txt">
+                                        <p align="justify" class="tl-course-details-instructor-intro"> Bonjour à tous ! Je suis Parfait MUNONGO, votre mentor dans le parcours <strong> "Maîtrise de Power BI" </strong>. Forte d'une expertise 
+                                            de plusieurs années dans le domaine de Power BI, je suis ici pour vous accompagner dans l'exploration enthousiasmante de cet 
+                                            outil révolutionnaire. Préparez-vous à embarquer pour un voyage captivant où nous développerons des compétences fondamentales, 
+                                            explorerons divers sujets, et affinerons votre expertise avec Power BI. Faisons de cette expérience d'apprentissage quelque chose 
+                                            d'influent et d'agréable ensemble. Êtes-vous prêt(e) à démarrer cette aventure ? Plongeons ensemble dans le monde dynamique de 
+                                            Power BI ! </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="reviews-tab-pane" role="tabpanel" aria-labelledby="reviews-tab" tabindex="0">
+                                <div class="tl-event-details-area tl-course-details-review">
+                                    <div class="tl-course-details-stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+
+                                    <p class="tl-2-testimony-txt">
+                                        It was my immense luck and fortune to be a part of Educlab University where I can grow. The entire faculty & department leaves no stone unturned to shape one's future in my four years.
+                                    </p>
+
+                                    <div class="tl-2-testimony-reviewer">
+                                        <img src="assets/images/tl-2/reviewer-2.jpg" alt="Person" class="tl-2-testimony-reviewer-img">
+                                        <div class="tl-2-testimony-reviewer-info">
+                                            <h6 class="tl-2-testimony-reviewer-name">Alan Corey</h6>
+                                            <p class="tl-2-testimony-reviewer-label">B.Tech - Civil, 2015 - 2020</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tl-event-details-area tl-course-details-review">
+                                    <div class="tl-course-details-stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+
+                                    <p class="tl-2-testimony-txt">
+                                        It was my immense luck and fortune to be a part of Educlab University where I can grow. The entire faculty & department leaves no stone unturned to shape one's future in my four years.
+                                    </p>
+
+                                    <div class="tl-2-testimony-reviewer">
+                                        <img src="assets/images/tl-2/reviewer-1.jpg" alt="Person" class="tl-2-testimony-reviewer-img">
+                                        <div class="tl-2-testimony-reviewer-info">
+                                            <h6 class="tl-2-testimony-reviewer-name">Brian Cumin</h6>
+                                            <p class="tl-2-testimony-reviewer-label">B.Tech - Civil, 2015 - 2020</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- top courses -->
+                   <!-- <div class="tl-event-details-left mt-30">
+                        <div class="tl-course-details-top-courses tl-event-details-area mt-0">
+                            <h3 class="tl-event-details-area-title">Plus de cours de l'encadreur Obed YAMBO</h3>
+
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <div class="tl-1-course">
+                                        <div class="tl-1-course-img">
+                                            <img src="assets/images/tl-13/about-img.jpg" alt="Course Image">
+                                            <span class="tl-1-course-price">$53.00</span>
+                                        </div>
+
+                                        <div class="tl-1-course-txt">
+                                            <span class="tl-1-course-author">By <a href="#">Brian Cumin</a></span>
+                                            <h4 class="tl-1-course-title"><a href="#">Teaching Math and Science Inquiry-Based Approaches</a></h4>
+                                            <div class="tl-1-course-stats">
+                                                <div class="tl-1-course-stat">
+                                                    <span class="tl-1-course-stat-icon"><i class="fa-regular fa-book-blank"></i></span>
+                                                    <span class="tl-1-course-stat-txt">6 Lessons</span>
+                                                </div>
+
+                                                <div class="tl-1-course-stat">
+                                                    <span class="tl-1-course-stat-icon"><i class="fa-regular fa-user-group"></i></span>
+                                                    <span class="tl-1-course-stat-txt">32 Students</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="tl-1-course">
+                                        <div class="tl-1-course-img">
+                                            <img src="assets/images/tl-12/event-2.jpg" alt="Course Image">
+                                            <span class="tl-1-course-price">$53.00</span>
+                                        </div>
+
+                                        <div class="tl-1-course-txt">
+                                            <span class="tl-1-course-author">By <a href="#">Brian Cumin</a></span>
+                                            <h4 class="tl-1-course-title"><a href="#">Teaching Math and Science Inquiry-Based Approaches</a></h4>
+                                            <div class="tl-1-course-stats">
+                                                <div class="tl-1-course-stat">
+                                                    <span class="tl-1-course-stat-icon"><i class="fa-regular fa-book-blank"></i></span>
+                                                    <span class="tl-1-course-stat-txt">6 Lessons</span>
+                                                </div>
+
+                                                <div class="tl-1-course-stat">
+                                                    <span class="tl-1-course-stat-icon"><i class="fa-regular fa-user-group"></i></span>
+                                                    <span class="tl-1-course-stat-txt">32 Students</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+
+                <!-- RIGHT SIDEBAR -->
+                <div class="col-lg-4">
+                    <div class="tl-event-details-right">
+                        <div class="tl-course-details-sidebar-heading">
+                            <iframe src="https://www.youtube.com/embed/SEO9YPzSH-0?si=doOkRVmfpzt3BlZO" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                            <h3 class="tl-course-details-price">$200 + $165 Certificat<span class="prev-price text-decoration-line-through">$260 + $165 Certificat</span></h3>
+                        </div>
+
+                        <ul class="tl-event-details-infos">
+                            <li class="tl-event-details-info">
+                                <span class="key"><i class="fa-regular fa-clock"></i> Durée:</span>
+                                <span class="value">2 Semaines</span>
+                            </li>
+                            <li class="tl-event-details-info">
+                                <span class="key"><i class="fa-regular fa-video"></i> Video Lectures:</span>
+                                <span class="value">5+</span>
+                            </li>
+                            <li class="tl-event-details-info">
+                                <span class="key"><i class="fa-regular fa-tv"></i> live Class</span>
+                                <span class="value">2+</span>
+                            </li>
+                            <li class="tl-event-details-info">
+                                <span class="key"><i class="fa-regular fa-file-contract"></i> Excercices:</span>
+                                <span class="value">5+</span>
+                            </li>
+                            <li class="tl-event-details-info">
+                                <span class="key"><i class="fa-regular fa-user"></i> Enrollés:</span>
+                                <span class="value">12+</span>
+                            </li>
+                            <li class="tl-event-details-info">
+                                <span class="key"><i class="fa-regular fa-bars-progress"></i> Niveau:</span>
+                                <span class="value">Basic</span>
+                            </li>
+                            <li class="tl-event-details-info">
+                                <span class="key"><i class="fa-regular fa-globe"></i> Langue:</span>
+                                <span class="value">Francais</span>
+                            </li>
+                        </ul>
+
+                        <img class="tl-course-details-payment-methods" src="assets/images/card.png" alt="">
+
+                        <a href="#" class="tl-def-btn tl-3-def-btn tl-event-details-book-btn">Enroll Now</a>
+                    </div>
+
+                    <div class="tl-event-details-right tl-upcoming-events">
+                        <h3 class="tl-upcoming-events-title">D'autres cours</h3>
+                        <div class="tl-upcoming-event tl-pop-course">
+                            <img class="tl-upcoming-event-img" src="assets/images/tl-6/news-16.jpg" alt="event image">
+                            <div class="tl-upcoming-event-txt">
+                                <h4 class="tl-upcoming-event-title"><a href="event-details.html">Google Analytics 4.</a></h4>
+                                <ul class="tl-2-blog-infos">
+                                    <li>Par <a href="staff-profile1.html">Obed</a></li>
+                                    <li>$100.00</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="tl-upcoming-event tl-pop-course">
+                            <img class="tl-upcoming-event-img" src="assets/images/tl-6/news-13.jpg" alt="event image">
+                            <div class="tl-upcoming-event-txt">
+                                <h4 class="tl-upcoming-event-title"><a href="event-details.html">Analyste Commercial : Naviguer sur le chemin de la prise de décision stratégique
+                                </a></h4>
+                                <ul class="tl-2-blog-infos">
+                                    <li>Par <a href="#">Julia</a></li>
+                                    <li>$200.00 + Certificat</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="tl-upcoming-event tl-pop-course">
+                            <img class="tl-upcoming-event-img" src="assets/images/tl-6/news-14.jpg" alt="event image">
+                            <div class="tl-upcoming-event-txt">
+                                <h4 class="tl-upcoming-event-title"><a href="event-details.html">Cours d'analyse marketing : Révéler la puissance des données dans la stratégie marketing</a></h4>
+                                <ul class="tl-2-blog-infos">
+                                    <li>Par <a href="#">Julia</a></li>
+                                    <li>$200.00 + Certificat</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- COURSE DETAILS END -->
+
+
+    <!-- FOOTER SECTION STARTS HERE ↓ -->
+    <footer class="tl-footer kb-10-footer tl-1-footer">
+        <div class="container">
+            <div class="tl-footer-top">
+                <div class="row gy-5 justify-content-between">
+                    <div class="col-lg-3 col-sm-6 col-12">
+                        <div class="tl-footer-widget kb-10-footer-widget">
+                            <a href="index.html" class="logo tl-footer-widget-title">
+                                <img src="assets/images/logos/logo-.png" alt="logo">
+                            </a>
+                            <p class="tl-1-footer-descr">The School of Data & Analytics Congo (SDA Congo).</p>
+                            <div class="tl-1-footer-socials">
+                                <ul>
+                                    <li><a href="https://twitter.com/example"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="https://facebook.com/example"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="https://linkedin.com/in/example"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                    <li><a href="https://wa.me/1234567890"><i class="fa-brands fa-whatsapp"></i></a></li> <!-- Replace 1234567890 with your WhatsApp number -->
+                                    <li><a href="mailto:info@example.com"><i class="fa-regular fa-envelope"></i></a></li> <!-- Replace info@example.com with your e-mail address -->
+                                    <li><a href="tel:+1234567890"><i class="fa-regular fa-phone"></i></a></li> <!-- Replace +1234567890 with your phone number -->
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 order-1 order-sm-2 order-lg-1">
+                        <div class="row gy-5">
+                            <div class="col-6 col-xxs-12">
+                                <div class="tl-footer-widget kb-10-footer-widget">
+                                    <h5 class="tl-footer-widget-title">SDA Congo</h5>
+                                    <ul class="tl-footer-links">
+                                        <li><a href="about vf.html">À propos</a></li>
+                                        <li><a href="course.html">Cours</a></li>
+                                        <li><a href="staff.html">Encadreurs</a></li>
+                                        <li><a href="event.html">Évènements</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                          <!--   <div class="col-6 col-xxs-12">
+                                <div class="tl-footer-widget kb-10-footer-widget">
+                                    <h5 class="tl-footer-widget-title">Academics</h5>
+                                    <ul class="tl-footer-links">
+                                        <li><a href="#">Programming</a></li>
+                                        <li><a href="#">Art &amp; Design</a></li>
+                                        <li><a href="#">Business</a></li>
+                                        <li><a href="#">Engineering</a></li>
+                                        <li><a href="#">Photography</a></li>
+                                    </ul>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+
+                   <div class="col-lg-4 col-sm-6 col-12 order-2 order-sm-1 order-lg-2">
+                        <div class="tl-footer-widget tl-3-footer-widget">
+                            <h5 class="tl-footer-widget-title">Abonnement</h5>
+                            <form action="#" class="tl-1-nwsltr-form">
+                                <input type="email" name="nwsltr-mail" id="tl-1-nwsltr-mail" class="tl-1-nwsltr-mail-input" placeholder="Nos dernières nouvelles">
+                                <button class="tl-1-nwsltr-btn" id="tl-1-nwsltr-btn">@</button>
+                            </form>
+                            <p class="tl-1-nwsltr-txt">Abonnez-vous pour rester à la une de nos dernières nouvelles.</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="tl-footer-bottom kb-10-footer-bottom">
+                <div class="row gy-4 align-items-center">
+                    <div class="col-md-6">
+                        <p class="tl-1-copyright-txt m-0">Copyright &copy; 2024 All Rights Reserved by SDA Congo</p>
+                    </div>
+
+                    <div class="col-md-6">
+                        <ul class="tl-1-footer-bottom-actions">
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Term of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER SECTION ENDS HERE ↑ -->
+
+
+    <!-- JS FILES ↓ -->
+    <script src="assets/vendor/jquery/jquery-3.7.0.min.js"></script>
+    <script src="assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/fs-lightbox/fslightbox.js"></script>
+    <script src="assets/vendor/mean-menu/jquery.meanmenu.min.js"></script>
+    <script src="assets/vendor/swiper-js/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/slick-slider/slick.min.js"></script>
+    <script src="assets/vendor/bx-slider/jquery.bxslider.min.js"></script>
+    <script src="assets/vendor/eocjs-newsticker/eocjs-newsticker.js"></script>
+    <script src="assets/vendor/syotimer/jquery.syotimer.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+
+
+</html>
